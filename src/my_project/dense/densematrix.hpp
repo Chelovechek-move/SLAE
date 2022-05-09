@@ -6,7 +6,7 @@
 #define SLAE_DENSEMATRIX_HPP
 #include <vector>
 #include <set>
-#include "../utility/triplet.hpp"
+#include "../utility/Triplet.hpp"
 template<typename T>
 class DenseMatrix{
 public:
@@ -33,4 +33,5 @@ public:
     void deleteLastRow();
 
 };
+
 #endif//SLAE_DENSEMATRIX_HPP
